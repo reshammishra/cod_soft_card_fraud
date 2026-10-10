@@ -1,0 +1,29 @@
+# Large dataset files
+fraudTest.csv/
+fraudTest.csv
+*.zip
+*.tar.gz
+
+# Keep sample test data
+!sample_test_data.csv
+
+# Python cache & virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
